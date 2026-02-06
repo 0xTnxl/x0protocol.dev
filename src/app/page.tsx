@@ -209,7 +209,7 @@ export default function Home() {
             </p>
           </div>
           <div>
-            <h3 className="text-4xl font-serif-custom">0.1%</h3>
+            <h3 className="text-4xl font-serif-custom">0.8%</h3>
             <p className="text-xs text-gray-500 uppercase tracking-wide mt-2">
               Protocol Fee
             </p>
