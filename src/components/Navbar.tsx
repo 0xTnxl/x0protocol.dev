@@ -7,20 +7,15 @@ export function Navbar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-    <nav className="w-full border-b border-gray-800/60 py-4 px-6 md:px-12 flex items-center justify-between sticky top-0 bg-black/95 backdrop-blur-sm z-50">
+    <nav className="w-full border-b border-gray-800/60 py-4 sticky top-0 bg-black/95 backdrop-blur-sm z-50">
+      <div className="max-w-7xl mx-auto px-6 md:px-12 flex items-center justify-between">
       {/* Left nav links */}
       <div className="hidden md:flex gap-6 text-xs font-mono-custom uppercase tracking-wider text-gray-500">
         <Link
-          href="#features"
+          href="https://discord.gg/x0protocol"
           className="hover:text-white transition-colors"
         >
-          Ecosystem
-        </Link>
-        <Link
-          href="#comparison"
-          className="hover:text-white transition-colors"
-        >
-          How it Works
+          Discord
         </Link>
         <Link
           href="/whitepaper"
@@ -96,16 +91,14 @@ export function Navbar() {
           </svg>
         </button>
       </div>
+      </div>
 
       {/* Mobile menu */}
       {mobileMenuOpen && (
         <div className="absolute top-full left-0 right-0 bg-black border-b border-gray-800 md:hidden">
           <div className="flex flex-col p-6 gap-4 text-sm font-mono-custom uppercase">
-            <Link href="#features" className="hover:text-green-400">
-              Ecosystem
-            </Link>
-            <Link href="#comparison" className="hover:text-green-400">
-              How it Works
+            <Link href="https://discord.gg/x0protocol" className="hover:text-green-400">
+              Discord
             </Link>
             <Link href="/whitepaper" className="hover:text-green-400">
               Whitepaper

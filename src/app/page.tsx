@@ -79,8 +79,8 @@ export default function Home() {
             <div className="space-y-2">
               <h1 className="text-6xl md:text-7xl font-mono-custom font-normal leading-none tracking-tighter animate-fade-in-up">
                 x0{" "}
-                <span className="text-base font-sans align-middle ml-2 opacity-50">
-                  Autonomous Agent Payments
+                <span className="text-base font-sans align-middle ml-2 opacity-50 tracking-widest">
+                  protocol
                 </span>
               </h1>
               <p className="text-sm md:text-base text-gray-400 leading-relaxed max-w-lg mt-6 animate-fade-in-up delay-200">
