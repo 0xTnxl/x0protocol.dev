@@ -100,7 +100,7 @@ export function Navbar() {
             <Link href="https://discord.gg/x0protocol" className="hover:text-green-400">
               Discord
             </Link>
-            <Link href="/whitepaper" className="hover:text-green-400">
+            <Link href="https://raw.githubusercontent.com/0xTnxl/x0/main/whitepaper.pdf" className="hover:text-green-400">
               Whitepaper
             </Link>
             <Link href="https://docs.x0protocol.dev" className="hover:text-green-400">
