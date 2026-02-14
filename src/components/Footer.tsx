@@ -33,7 +33,7 @@ export function Footer() {
                   </Link>
                 </li>
                 <li>
-                  <Link href="https://github.com/x0-protocol" className="hover:text-white text-gray-400 transition-colors">
+                  <Link href="https://github.com/0xtnxl/x0" className="hover:text-white text-gray-400 transition-colors">
                     GitHub
                   </Link>
                 </li>
@@ -106,7 +106,7 @@ export function Footer() {
               </svg>
             </Link>
             <Link
-              href="https://github.com/x0-protocol"
+              href="https://github.com/0xtnxl/x0"
               className="text-gray-500 hover:text-white transition-colors"
               aria-label="GitHub"
             >

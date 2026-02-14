@@ -56,7 +56,7 @@ export function Navbar() {
           Docs
         </Link>
         <Link
-          href="https://github.com/x0-protocol"
+          href="https://github.com/0xtnxl/x0"
           className="px-4 py-1.5 bg-white text-black text-xs font-mono-custom uppercase hover:bg-gray-200 transition-colors flex items-center gap-2"
         >
           GitHub
